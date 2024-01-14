@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "/YP/MV9V00ek/kT1DAVpA/25kOu1Ig/n4RaM5zgUU954KYaOfn0WIg2Wc/kLRERao3aZCYK9HspBD7+0tvQxpA==",
+  "success": true,
+  "projectFilePath": "E:\\Practice Net and Web API\\LearnAKS\\gitforakspub\\Shoping\\Shoping.client\\Shoping.client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Owner\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.5\\microsoft.visualstudio.azure.containers.tools.targets.1.19.5.nupkg.sha512"
+  ],
+  "logs": []
+}
