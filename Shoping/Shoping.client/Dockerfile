@@ -8,7 +8,8 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["/src/shoping/Shoping.client/Shoping.client.csproj", "Shoping.client/"]
+#COPY ["/src/shoping/Shoping.client/Shoping.client.csproj", "Shoping.client/"]
+COPY *.csproj ./
 RUN dotnet restore "./Shoping.client/./Shoping.client.csproj"
 COPY . .
 WORKDIR "/src/Shoping.client"
