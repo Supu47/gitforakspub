@@ -10,7 +10,8 @@ ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 #COPY ["/src/shoping/Shoping.client/Shoping.client.csproj", "Shoping.client/"]
 COPY *.csproj ./
-RUN dotnet restore "./Shoping.client/./Shoping.client.csproj"
+#RUN dotnet restore "./Shoping.client/./Shoping.client.csproj"
+RUN dotnet restore
 COPY . .
 WORKDIR "/src/Shoping.client"
 RUN dotnet build "./Shoping.client.csproj" -c $BUILD_CONFIGURATION -o /app/build
